@@ -1,0 +1,60 @@
+.container {
+  margin: 50px auto;
+}
+
+
+.title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.card {
+  height: 300px;
+  width: 300px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.color-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.color-wrapper input {
+  border: none;
+  background: none;
+}
+
+.box {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  height: 250px;
+  width: 250px;
+  background-color: #0d6efd;
+  border-radius: 10px;
+}
+
+.container .inset-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.container .inset-wrapper input {
+  height: 25px;
+  width: 50px;
+}
+
+.container .result-group {
+  width: 300px;
+}
+
+.result{
+    resize: none;
+}
